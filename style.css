@@ -1,0 +1,44 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Anonymous Pro', monospace;
+    background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn-primary{
+    background-color:rgba(19, 20, 21, 0.774);
+    color:rgb(126, 96, 0);
+    border-color: rgb(183, 152, 113);
+}
+h1{
+    font-size: 3em;
+    color: #e6dee1;
+}
+hr {
+    margin: 20px auto;
+    color: #77272c;
+    border: 3px solid #ab5252;
+    max-width: 65px;
+    opacity: 1;  
+}
+.buffer{
+    height:50em ;
+}
+
+.btn {
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover{
+    border-width: 3px;
+    color: rgb(211, 221, 132);
+    background-color:rgba(19, 20, 21, 0.774) ;
+    border-color: rgb(85, 117, 80);
+}
+
